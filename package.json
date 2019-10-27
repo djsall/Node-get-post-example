@@ -1,0 +1,22 @@
+{
+	"name": "node-get-post-example",
+	"version": "1.0.0",
+	"description": "This is a sample project for a simple get and post request based web-application with JS server and clientside code.",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"nodemon": "nodemon server.js"
+	},
+	"keywords": [
+		"api",
+		"js",
+		"node"
+	],
+	"author": "DjSall",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1"
+	}
+}
